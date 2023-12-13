@@ -33,4 +33,4 @@ sudo apt install docker.io -y
 
 5. Push the image on ECR
 
-  - Make the public repository and push them on the ECR
+   - Make the public repository and push them on the ECR
