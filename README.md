@@ -34,7 +34,7 @@ sudo apt install docker.io -y
 5. Push the image on ECR
 
    - Make the public repository and push them on the ECR
-  5.1. Install AWS CLI to push the image on ECR
+5.1. Install AWS CLI to push the image on ECR
 ```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
@@ -44,7 +44,7 @@ sudo ./aws/install
 aws --version
 
 ```
-   5.2. AWS configure to access the aws account to run CLI commands 
+5.2. AWS configure to access the aws account to run CLI commands 
 ```
 aws configure
 ```
