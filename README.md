@@ -30,6 +30,13 @@ sudo apt install docker.io -y
 4. Building the Docker Image:
 
    - Build the Docker image using the `Dockerfile`.
+```
+docker build -t custom_webserver:v1 -f dockerfile .
+```
+Lets! Test the image
+```
+docker run -it -d  -p 8080:80 custom_webserver:v1
+```
 
 5. Push the image on ECR
 
